@@ -3,18 +3,13 @@
 // crear .exe: go build main.go
 package main
 
-import (
-	"fmt"
-	"runtime"
-)
-
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(58997)
 
 	fmt.Println(estado)
 	fmt.Println(texto)*/
 
-	if os := runtime.GOOS; os == "Linux." || os == "OS X." {
+	/*if os := runtime.GOOS; os == "Linux." || os == "OS X." {
 		fmt.Println("Esto no es Windows", os)
 	} else {
 		fmt.Println("Esto es Windows")
@@ -27,5 +22,11 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	}*/
+
+	/*
+		numero, texto := ejercicios.ConvNumerico("hhh")
+		fmt.Println(numero)
+		fmt.Println(texto)*/
+
 }
