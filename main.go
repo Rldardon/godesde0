@@ -3,6 +3,14 @@
 // crear .exe: go build main.go
 package main
 
+import (
+	//"fmt"
+
+	//"github.com/godesde0/ejercicios"
+	"fmt"
+	//teclado "github.com/godesde0/tecaldo"
+)
+
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(58997)
 
@@ -28,5 +36,11 @@ func main() {
 		numero, texto := ejercicios.ConvNumerico("hhh")
 		fmt.Println(numero)
 		fmt.Println(texto)*/
+
+	//teclado.IngresoNumeros()
+	for {
+		fmt.Println("hola")
+		break
+	}
 
 }
